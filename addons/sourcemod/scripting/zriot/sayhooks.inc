@@ -126,10 +126,10 @@ public Market_PostOnWeaponSelected(client, &bool:allowed)
 
 ZStuck(client)
 {
-    new bool:stuck = GetConVarBool(gCvars[CVAR_ZTELE]);
+    new bool:stuck = GetConVarBool(gCvars[CVAR_ZSTUCK]);
     if (!stuck)
     {
-        ZR_PrintToChat(client, "Feature is disabled");
+        ZRiot_PrintToChat(client, "Feature is disabled");
         
         return;
     }
