@@ -66,6 +66,27 @@
 		"en"		"You are not in a buyzone."
 	}
 
+	"!ztele amount"
+	{
+		"#format"	"{1:d}"
+		"en"		"You have @green{1}@default teleports left this round. (Teleport in 3 seconds)"
+	}
+
+	"!ztele amount unlimited"
+	{
+		"en"		"You will be teleported in 3 seconds."
+	}
+
+	"!ztele limit reached"
+	{
+		"en"		"Teleportation limit has been reached."
+	}
+
+	"!ztele humans restricted"
+	{
+		"en"		"Once a player has been infected, only zombies can use !ztele"
+	}
+
 	"Weapon has been restricted"
 	{
 		"#format"	"{1:s}"
@@ -140,6 +161,11 @@
 	"!zmenu market"
 	{
 		"en"		"Market (!market) - Custom weapon list"
+	}
+
+	"!zmenu tele"
+	{
+		"en"		"ZTele (!ztele) - Teleport to your spawnpoint"
 	}
 
 	"!zmenu stuck"
