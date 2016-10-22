@@ -81,6 +81,27 @@
 		"en"		"你不在购买区域."
 	}
 
+	"!ztele amount"
+	{
+		"#format"	"{1:d}"
+		"en"		"你已经 @green{1}@default 传送离开这局. (传送在 3 秒后)"
+	}
+
+	"!ztele amount unlimited"
+	{
+		"en"		"你会在 3 秒后被传送."
+	}
+
+	"!ztele limit reached"
+	{
+		"en"		"传送次数已经达到上限."
+	}
+
+	"!ztele humans restricted"
+	{
+		"en"		"一旦玩家被感染, 只有僵尸才能使用 !ztele"
+	}
+
 	"Weapon has been restricted"
 	{
 		"#format"	"{1:s}"
@@ -145,17 +166,22 @@
 
 	"!zmenu title"
 	{
-		"en"		"ZR 命令:"
+		"en"		"ZRiot 命令:"
 	}
 
 	"!zmenu menu"
 	{
-		"en"		"菜单 (!zmenu) - 显示所有 ZR 命令"
+		"en"		"菜单 (!zmenu) - 显示所有 ZRiot 命令"
 	}
 
 	"!zmenu market"
 	{
 		"en"		"交易 (!market) - 自定义武器列表"
+	}
+
+	"!zmenu tele"
+	{
+		"en"		"传送 (!ztele) - 传送到你的出生点"
 	}
 
 	"!zmenu stuck"
@@ -195,7 +221,7 @@
 
 	"ZRiot"
 	{
-		"en"		"ZR"
+		"en"		"ZRiot"
 	}
 
 	"Plugin loading"
