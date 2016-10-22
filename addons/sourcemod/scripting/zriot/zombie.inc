@@ -372,7 +372,7 @@ public Action:RemoveRagdoll(Handle:timer, any:ragdoll)
 Fade(client, speed, hold, type, red, green, blue, alpha)
 {
     new Handle:hFade = INVALID_HANDLE;
-    
+
     if (client)
     {
 	   hFade = StartMessageOne("Fade", client);
@@ -381,19 +381,29 @@ Fade(client, speed, hold, type, red, green, blue, alpha)
 	{
 	   hFade = StartMessageAll("Fade");
 	}
-	
+
     if (hFade != INVALID_HANDLE)
 	{
         // type 1 = IN
         // type 2 = OUT
-        
-    	BfWriteShort(hFade, speed);
-    	BfWriteShort(hFade, hold);
-    	BfWriteShort(hFade, type);
-    	BfWriteByte(hFade, red);
-    	BfWriteByte(hFade, green);
-    	BfWriteByte(hFade, blue);	
-    	BfWriteByte(hFade, alpha);
+
+    	// BfWriteShort(hFade, speed);
+    	// BfWriteShort(hFade, hold);
+    	// BfWriteShort(hFade, type);
+    	// BfWriteByte(hFade, red);
+    	// BfWriteByte(hFade, green);
+    	// BfWriteByte(hFade, blue);
+    	// BfWriteByte(hFade, alpha);
+
+        decl color[4];
+        color[0] = red;
+        color[1] = green;
+        color[2] = blue;
+        color[3] = alpha;
+        PbSetInt(hFade, "duration", speed);
+        PbSetInt(hFade, "hold_time", hold);
+        PbSetInt(hFade, "flags", type);
+        PbSetColor(hFade, "clr", color);
     	EndMessage();
     }
 }
