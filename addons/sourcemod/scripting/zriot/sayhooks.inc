@@ -29,8 +29,20 @@ public Action:SayCommand(client, argc)
     { 
         Market(client); 
         return Plugin_Handled; 
-    } 
-	 
+    }
+    
+     else if (StrEqual(args, "!zmenu", false))
+    {
+        MainMenu(client);
+        return Plugin_Handled;
+    }
+    
+    else if (StrEqual(args, "!zstuck", false))
+    {
+        ZStuck(client);
+        return Plugin_Handled;
+    }
+    
     return Plugin_Continue; 
 } 
 
@@ -111,3 +123,60 @@ public Market_PostOnWeaponSelected(client, &bool:allowed)
      
     Market(client); 
 }
+
+ZStuck(client)
+{
+    new bool:stuck = GetConVarBool(gCvars[CVAR_ZTELE]);
+    if (!stuck)
+    {
+        ZR_PrintToChat(client, "Feature is disabled");
+        
+        return;
+    }
+    
+    if (!IsPlayerAlive(client))
+    {
+        return;
+    }
+    
+    new Float:clientloc[3];
+    new Float:stuckloc[3];
+    
+    GetClientAbsOrigin(client, clientloc);
+    new maxplayers = GetMaxClients();
+    for (new x = 1; x <= maxplayers; x++)
+    {
+        if (!IsClientInGame(x) || !IsPlayerAlive(x))
+        {
+            continue;
+        }
+        
+        GetClientAbsOrigin(x, stuckloc);
+        if (GetVectorDistance(clientloc, stuckloc) <= 60)
+        {
+            NoCollide(x, true);
+            CreateTimer(0.5, CollisionOn, x, TIMER_FLAG_NO_MAPCHANGE);
+        }
+    }
+    
+    new Float:x = GetRandomFloat(-150.0, 150.0);
+    new Float:y = GetRandomFloat(-150.0, 150.0);
+    
+    new Float:nudge[3];
+    
+    nudge[0] = x;
+    nudge[1] = y;
+    
+    SetPlayerVelocity(client, nudge);
+}
+
+public Action:CollisionOn(Handle:timer, any:index)
+{
+    if (!IsClientInGame(index))
+    {
+        return;
+    }
+    
+    NoCollide(index, false);
+}
+
