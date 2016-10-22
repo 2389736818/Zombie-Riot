@@ -179,4 +179,3 @@ public Action:CollisionOn(Handle:timer, any:index)
     
     NoCollide(index, false);
 }
-
