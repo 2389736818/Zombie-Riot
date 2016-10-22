@@ -179,6 +179,11 @@
 		"en"		"交易 (!market) - 自定义武器列表"
 	}
 
+	"!zmenu spawn"
+	{
+		"en"		"出生 (!zspawn) - 出生在游戏"
+	}
+
 	"!zmenu tele"
 	{
 		"en"		"传送 (!ztele) - 传送到你的出生点"
