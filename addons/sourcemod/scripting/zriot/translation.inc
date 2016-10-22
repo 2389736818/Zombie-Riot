@@ -67,22 +67,23 @@ stock ZRiot_PrintCenterText(client, any:...)
 stock ZRiot_HudHint(client, any:...)
 {
     SetGlobalTransTarget(client);
-    
+
     decl String:phrase[192];
-    
+
     VFormat(phrase, sizeof(phrase), "%t", 2);
-    
+
     new Handle:hHintText = StartMessageOne("HintText", client);
     if (hHintText != INVALID_HANDLE)
     {
-        BfWriteByte(hHintText, -1);
-        
+        // BfWriteByte(hHintText, -1);
+
         Call_StartForward(hOnClientHUDUpdate);
         Call_PushCell(client);
         Call_PushStringEx(phrase, sizeof(phrase), SM_PARAM_STRING_COPY, SM_PARAM_COPYBACK);
         Call_Finish();
-        
-        BfWriteString(hHintText, phrase);
+
+        // BfWriteString(hHintText, phrase);
+        PbSetString(hHintText, "text", phrase);
         EndMessage();
     }
 }
