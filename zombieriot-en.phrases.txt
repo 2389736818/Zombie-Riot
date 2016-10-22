@@ -34,6 +34,11 @@
 		"en"		"Type \"!market\" in chat to access weapons not normally available to both teams."
 	}
 
+	"!zmenu reminder"
+	{
+		"en"		"Type !zmenu in chat to view all ZRiot commands."
+	}
+
 	"You are now a zombie"
 	{
 		"en"		"You have been switched to the Zombie side, your goal is to kill the Humans."
@@ -121,6 +126,26 @@
 	// ===========================
 	// Menus
 	// ===========================
+
+	"!zmenu title"
+	{
+		"en"		"ZRiot Commands:"
+	}
+
+	"!zmenu menu"
+	{
+		"en"		"ZMenu (!zmenu) - Display all ZRiot commands"
+	}
+
+	"!zmenu market"
+	{
+		"en"		"Market (!market) - Custom weapon list"
+	}
+
+	"!zmenu stuck"
+	{
+		"en"		"ZStuck (!zstuck) - Unsticks you from another player"
+	}
 
 	"Market title"
 	{
