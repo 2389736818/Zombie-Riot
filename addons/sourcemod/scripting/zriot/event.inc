@@ -416,7 +416,7 @@ public Action:PlayerHurt(Handle:event, const String:name[], bool:dontBroadcast)
         decl String:sound[64];
         new randsound = GetRandomInt(1, 6);
         
-        Format(sound, sizeof(sound), "npc/zombie/zombie_pain%d.wav", randsound);
+        Format(sound, sizeof(sound), "music/zr/zombie_pain%d.wav", randsound);
         
         PrecacheSound(sound);
         EmitSoundToAll(sound, index);
@@ -452,7 +452,7 @@ public Action:PlayerDeath(Handle:event, const String:name[], bool:dontBroadcast)
         decl String:sound[64];
         
         new randsound = GetRandomInt(1, 3);
-        Format(sound, sizeof(sound), "npc/zombie/zombie_die%d.wav", randsound);
+        Format(sound, sizeof(sound), "music/zr/zombie_die%d.wav", randsound);
         
         PrecacheSound(sound);
         EmitSoundToAll(sound, index);
