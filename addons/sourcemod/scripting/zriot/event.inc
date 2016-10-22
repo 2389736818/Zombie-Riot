@@ -349,6 +349,31 @@ public Action:PlayerSpawn(Handle:event, const String:name[], bool:dontBroadcast)
             ZRiot_PrintToChat(index, "!market reminder");
         }
         
+        new bool:zmenu; 
+        {
+            ZRiot_PrintToChat(index, "!zmenu reminder");
+        }
+        
+        new bool:store; 
+        {
+            ZRiot_PrintToChat(index, "!store reminder");
+        }
+        
+        new bool:porject; 
+        {
+            ZRiot_PrintToChat(index, "!porject reminder");
+        }
+        
+        new bool:welcome; 
+        {
+            ZRiot_PrintToChat(index, "!welcome reminder");
+        }
+        
+        new bool:squier; 
+        {
+            ZRiot_PrintToChat(index, "!squier reminder");
+        }
+        
         new bool:noblock = GetConVarBool(gCvars[CVAR_NOBLOCK]);
         if (noblock)
         {
@@ -373,7 +398,7 @@ public Action:PlayerSpawn(Handle:event, const String:name[], bool:dontBroadcast)
             CloseHandle(tZVision[index]);
             tZVision[index] = INVALID_HANDLE;
         }
-        
+		
         ClientCommand(index, "r_screenoverlay \"\"");
         
         RemoveTargeters(index);
