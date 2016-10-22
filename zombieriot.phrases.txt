@@ -6,7 +6,7 @@
 
 	"Round objective"
 	{
-		"en"		"这个游戏模式是 @green人类 vs. 僵尸@default, 人类必须杀死所有的僵尸直到下1个等级."
+		"en"		"这个游戏模式是 @green人类 vs. 僵尸@default, 人类必须杀死所有的僵尸直到下一个等级."
 	}
 
 	"Feature is disabled"
@@ -34,9 +34,14 @@
 		"en"		"@green输入 \"!market\" 在聊天栏获得不正规的武器提供给双方!"
 	}
 
+	"!zmenu reminder"
+	{
+		"en"		"输入 !zmenu 在聊天栏查看所有 ZR 命令."
+	}
+
 	"!porject reminder"
 	{
-		"en"		"Porject:squier,DR.API,TummieTum,@greenTeam-Secretforce.com."
+		"en"		"Porject:TummieTum,@greenTeam-Secretforce.com."
 	}
 
 	"!welcome reminder"
@@ -47,11 +52,6 @@
 	"!squier reminder"
 	{
 		"en"		"@green欢迎你来到CS起源交流群的CSGO暴动服务器."
-	}
-
-	"!zmenu reminder"
-	{
-		"en"		"输入 !zmenu 在聊天栏查看所有 ZR 命令."
 	}
 
 	"You are now a zombie"
@@ -153,6 +153,11 @@
 		"en"		"菜单 (!zmenu) - 显示所有 ZR 命令"
 	}
 
+	"!zmenu market"
+	{
+		"en"		"交易 (!market) - 自定义武器列表"
+	}
+
 	"!zmenu stuck"
 	{
 		"en"		"卡住 (!zstuck) - 分开你和另一个玩家"
@@ -160,7 +165,7 @@
 
 	"Market title"
 	{
-		"en"		"Secret Force Market:"
+		"en"		"可用的枪:"
 	}
 
 	"Market rebuy"
