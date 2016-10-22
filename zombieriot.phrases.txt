@@ -1,0 +1,235 @@
+"Phrases"
+{
+	// ===========================
+	// 聊天框信息
+	// ===========================
+
+	"Round objective"
+	{
+		"en"		"这个游戏模式是 @green人类 vs. 僵尸@default, 人类必须杀死所有的僵尸直到下1个等级."
+	}
+
+	"Feature is disabled"
+	{
+		"en"		"此功能已被服务器主机禁用."
+	}
+
+	"Must be alive"
+	{
+		"en"		"只能在活着的时候使用."
+	}
+
+	"Must be dead"
+	{
+		"en"		"只能在死亡的时候使用."
+	}
+
+	"!store reminder"
+	{
+		"en"		"@green输入 \"!store\" 在聊天栏可以在商店购买东西."
+	}
+
+	"!market reminder"
+	{
+		"en"		"@green输入 \"!market\" 在聊天栏获得不正规的武器提供给双方!"
+	}
+
+	"!porject reminder"
+	{
+		"en"		"Porject:squier,DR.API,TummieTum,@greenTeam-Secretforce.com."
+	}
+
+	"!welcome reminder"
+	{
+		"en"		"@greenWelcome to you join Zombie Riot Server!"
+	}
+
+	"!squier reminder"
+	{
+		"en"		"@green欢迎你来到CS起源交流群的CSGO暴动服务器."
+	}
+
+	"!zmenu reminder"
+	{
+		"en"		"输入 !zmenu 在聊天栏查看所有 ZR 命令."
+	}
+
+	"You are now a zombie"
+	{
+		"en"		"你已经被转换到僵尸队伍, 你的目标是杀死人类."
+	}
+
+	"Game won"
+	{
+		"en"		"人类已经获胜, 僵尸种族已经被破坏."
+	}
+
+	"Skip to day"
+	{
+		"#format"	"{1:d}"
+		"en"		"跳到天数 {1}"
+	}
+
+	"Respawn time"
+	{
+		"#format"	"{1:d}"
+		"en"		"重生在: {1} 秒后"
+	}
+
+	"Market out of buyzone"
+	{
+		"en"		"你不在购买区域."
+	}
+
+	"Weapon has been restricted"
+	{
+		"#format"	"{1:s}"
+		"en"		"武器 @green\"{1}\" @default已经被限制."
+	}
+
+	"Weapon group has been restricted"
+	{
+		"#format"	"{1:s}"
+		"en"		"武器组合 @green\"{1}\" @default已经被限制."
+	}
+
+	"Weapon has been unrestricted"
+	{
+		"#format"	"{1:s}"
+		"en"		"武器 @green\"{1}\" @default已经被解开限制."
+	}
+
+	"Weapon group has been unrestricted"
+	{
+		"#format"	"{1:s}"
+		"en"		"武器组合 @green\"{1}\" @default已经被解开限制."
+	}
+
+	"Weapon is restricted"
+	{
+		"#format"	"{1:s}"
+		"en"		"武器 @green{1} @default限制."
+	}
+
+	"Weapon already restricted"
+	{
+		"#format"	"{1:s}"
+		"en"		"武器 @green\"{1}\" @default已限制."
+	}
+
+	"Weapon invalid"
+	{
+		"#format"	"{1:s}"
+		"en"		"武器 @green\"{1}\" @default无效或当前没有限制"
+	}
+
+	"Zombie cant use weapon"
+	{
+		"en"		"僵尸不能使用武器!"
+	}
+
+	"Suicide text"
+	{
+		"en"		"想得美 n00b!"
+	}
+
+	"DX90 not supported"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"检查覆盖贴图 - DX{1} 检测 (DX{2} 需要)"
+	}
+
+	// ===========================
+	// 菜单
+	// ===========================
+
+	"!zmenu title"
+	{
+		"en"		"ZR 命令:"
+	}
+
+	"!zmenu menu"
+	{
+		"en"		"菜单 (!zmenu) - 显示所有 ZR 命令"
+	}
+
+	"!zmenu stuck"
+	{
+		"en"		"卡住 (!zstuck) - 分开你和另一个玩家"
+	}
+
+	"Market title"
+	{
+		"en"		"Secret Force Market:"
+	}
+
+	"Market rebuy"
+	{
+		"en"		"重新购买"
+	}
+
+	// ===========================
+	// Hud显示
+	// ===========================
+
+	"HUD"
+	{
+		"#format"	"{1:d},{2:d},{3:s},{4:d},{5:d}"
+		"en"		"天数 {1}/{2} - {3}\n僵尸剩余: {4}\nQQ群:279452812 "
+	}
+
+	"HUD target"
+	{
+		"#format"	"{1:d},{2:d},{3:s},{4:d},{5:d},{6:N},{7:d}"
+		"en"		"天数 {1}/{2} - {3}\n僵尸剩余: {4}\n目标: {6} | 生命值: {7}"
+	}
+
+	// ===========================
+	// 服务器信息
+	// ===========================
+
+	"ZRiot"
+	{
+		"en"		"ZR"
+	}
+
+	"Plugin loading"
+	{
+		"en"		"-----------|         Zombie Riot Loading        |----------"
+	}
+
+	"Plugin loaded"
+	{
+		"en"		"-----------|         Zombie Riot Loaded         |----------"
+	}
+
+	"Hostname prefix"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"[天数: {1}/{2}]请在此设置服务器名并保存为UTF8无BOM编码"
+	}
+
+	"Restrict weapon mapstart"
+	{
+		"#format"	"{1:s}"
+		"en"		"限制武器: {1}"
+	}
+	
+	"Restrict weapon group mapstart"
+	{
+		"#format"	"{1:s}"
+		"en"		"限制组合: {1}"
+	}
+
+	"Ambient sound load failed"
+	{
+		"#format"	"{1:s}"
+		"en"		"无效的声音文件: {1}"
+	}
+
+	"File load failed"
+	{
+		"#format"	"{1:s}"
+		"en"		"无效的文件路径: \"{1}\", 查看 downloads.txt"
+	}
+}
