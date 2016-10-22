@@ -34,6 +34,7 @@
 #include "zriot/weaponrestrict"
 #include "zriot/commands"
 #include "zriot/event"
+#include "zriot/menu"
 
 public Plugin:myinfo =
 {
