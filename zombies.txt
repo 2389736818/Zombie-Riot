@@ -32,11 +32,6 @@
 		"jump"		"10.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"2.4"
-		"maxsize"	"2.8"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"seth"
@@ -49,11 +44,6 @@
 		"jump"		"10.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"2.4"
-		"maxsize"	"2.8"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"freddy"
@@ -66,11 +56,6 @@
 		"jump"		"10.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"1.0"
-		"maxsize"	"1.0"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"speed"
@@ -83,11 +68,6 @@
 		"jump"		"10.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.6"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"facehugger"
@@ -100,11 +80,6 @@
 		"jump"		"32.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"1.6"
-		"maxsize"	"2.4"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"octabrain"
@@ -117,11 +92,6 @@
 		"jump"		"10.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.9"
-		"maxsize"	"1.6"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"octabrainsm"
@@ -134,11 +104,6 @@
 		"jump"		"10.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"0.9"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"octabrainbg"
@@ -151,11 +116,6 @@
 		"jump"		"10.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"1.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"octaking"
@@ -168,11 +128,6 @@
 		"jump"		"10.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.6"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"tarantula"
@@ -185,11 +140,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.6"
-		"special"	"none"
-		"ability"	"none"
 	}
 	"tarantula_small"
 	{
@@ -201,11 +151,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.4"
-		"maxsize"	"0.7"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"walker"
@@ -218,11 +163,6 @@
 		"jump"		"35.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.6"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"walkerbig"
@@ -235,11 +175,6 @@
 		"jump"		"35.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"1.8"
-		"maxsize"	"2.2"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"wolfspider"
@@ -252,11 +187,6 @@
 		"jump"		"35.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
 	"wolfspider_small"
 	{
@@ -268,11 +198,6 @@
 		"jump"		"35.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.4"
-		"maxsize"	"0.6"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"wraith"
@@ -285,11 +210,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"zh1"
@@ -302,11 +222,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"zh2"
@@ -319,11 +234,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"brute"
@@ -336,11 +246,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"crunchy"
@@ -353,11 +258,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"ghoul"
@@ -370,11 +270,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
 
 	"spitter"
@@ -387,13 +282,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.8"
-		"special"	"none"
-		"ability"	"none"
 	}
-	//17 specifically set for mothercrab
+
 	"zh3"
 	{
 		"type"		"override_required"
@@ -404,11 +294,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"0.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
 		
 	"grim"
@@ -421,14 +306,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.8"
-		"special"	"none"
-		"ability"	"none"
 	}
-	
-	
+
 	"skeleton"
 	{
 		"type"		"override_required"
@@ -439,11 +318,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"0.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"witch"
@@ -456,11 +330,6 @@
 		"jump"		"35.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"0.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
 	
 	"ubcszombie1"
@@ -473,13 +342,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"0.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
-	//ZombieId: 22
+
 	"zombie1"
 	{
 		"type"		"override_required"
@@ -490,13 +354,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"0.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
-	//ZombieId: 23
+
 	"zombie2"
 	{
 		"type"		"override_required"
@@ -507,11 +366,6 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"0.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
 	"zombie3"
 	{
@@ -523,12 +377,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
-	}
+        }
+
 	"zombie4"
 	{
 		"type"		"override_required"
@@ -539,12 +389,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"0.8"
-		"maxsize"	"2.0"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"zombie5"
 	{
 		"type"		"override_required"
@@ -555,12 +401,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"zombiebo"
 	{
 		"type"		"override_required"
@@ -571,12 +413,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"zombiefemale1"
 	{
 		"type"		"override_required"
@@ -587,12 +425,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"zombiefemale2"
 	{
 		"type"		"override_required"
@@ -603,12 +437,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"zombienurse"
 	{
 		"type"		"override_required"
@@ -619,12 +449,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"scarecrow"
 	{
 		"type"		"override_required"
@@ -635,12 +461,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"kamikaze"
 	{
 		"type"		"override_required"
@@ -651,12 +473,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"0.8"
-		"maxsize"	"1.5"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"revenant"
 	{
 		"type"		"override_required"
@@ -667,12 +485,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"0.8"
-		"maxsize"	"1.2"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"nemesis"
 	{
 		"type"		"override_required"
@@ -683,12 +497,8 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"1"
-		"minsize"	"1.2"
-		"maxsize"	"1.6"
-		"special"	"none"
-		"ability"	"none"
 	}
+
 	"fatty"
 	{
 		"type"		"override_required"
@@ -699,10 +509,5 @@
 		"jump"		"17.0"
 		"fov"		"110"
 		"zvision"	"overlays/zr/zvision"
-		"size"		"0"
-		"minsize"	"1.0"
-		"maxsize"	"1.0"
-		"special"	"none"
-		"ability"	"none"
 	}
 }
