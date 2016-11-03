@@ -39,9 +39,26 @@
 		"en"		"Type !zmenu in chat to view all ZRiot commands."
 	}
 
+	"Class select"
+	{
+		"#format"	"{1:s}"
+		"en"		"Switched zombie class to \"{1}\""
+	}
+
 	"You are now a zombie"
 	{
 		"en"		"You have been switched to the Zombie side, your goal is to kill the Humans."
+	}
+
+	"Auto-assign"
+	{
+		"#format"	"{1:s}"
+		"en"		"You have randomly been assigned to the @green\"{1}\" @defaultclass."
+	}
+
+	"Random class is enabled"
+	{
+		"en"		"Class selection is locked.  A random class will be assigned to you every round."
 	}
 
 	"Game won"
@@ -158,6 +175,11 @@
 		"en"		"ZMenu (!zmenu) - Display all ZRiot commands"
 	}
 
+	"!zmenu class"
+	{
+		"en"		"ZClass (!zclass) - Select a zombie class"
+	}
+
 	"!zmenu market"
 	{
 		"en"		"Market (!market) - Custom weapon list"
@@ -171,6 +193,12 @@
 	"!zmenu stuck"
 	{
 		"en"		"ZStuck (!zstuck) - Unsticks you from another player"
+	}
+
+	"!zclass title"
+	{
+		"en"		"Zombie Class Selection:"
+		"ru"		"Выбор Класса Зомби:"
 	}
 
 	"Market title"
